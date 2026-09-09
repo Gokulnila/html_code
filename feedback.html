@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Feedback Form</title>
+</head>
+<body>
+
+  <h2>Feedback Form</h2>
+
+  <form>
+
+    <!-- Name -->
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+    <!-- Email -->
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+    <!-- Gender -->
+    <label>Gender:</label><br>
+    <input type="radio" name="gender" value="male" required> Male
+    <input type="radio" name="gender" value="female"> Female
+    <input type="radio" name="gender" value="other"> Other<br><br>
+
+    <!-- Comments -->
+    <label for="comments">Comments:</label><br>
+    <textarea id="comments" name="comments" rows="5" cols="40"
+      placeholder="Write your comments here..." required></textarea><br><br>
+
+    <button>submit</button>
+    <!--or <input type="submit" value="Submit"> -->
+    <!-- Resume uploded -->
+     <label for="resume">Uploded Your Resume</label>
+     <input type="file" name=""resume" accept=".pdf,.doc">
+     <br>
+
+  </form>
+
+</body>
+</html>
